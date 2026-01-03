@@ -7,23 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yvonne &amp; Sunny DOU</copyright>
-        <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://YGPNFOREVER.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Memory</title>
-        <link>https://YGPNFOREVER.github.io/categories/memory/</link>
-        <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://YGPNFOREVER.github.io/categories/memory/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Photos</title>
-        <link>https://YGPNFOREVER.github.io/categories/photos/</link>
-        <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://YGPNFOREVER.github.io/categories/photos/</guid>
-        <description></description>
-        </item>
-        <item>
+        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://YGPNFOREVER.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Syntax</title>
         <link>https://YGPNFOREVER.github.io/categories/syntax/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -40,36 +24,12 @@
         <description></description>
         </item>
         <item>
-        <title>Test With Whitespaces</title>
-        <link>https://YGPNFOREVER.github.io/categories/test-with-whitespaces/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://YGPNFOREVER.github.io/categories/test-with-whitespaces/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>回忆</title>
         <link>https://YGPNFOREVER.github.io/categories/test/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://YGPNFOREVER.github.io/categories/test/</guid>
         <description>&lt;img src="https://YGPNFOREVER.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 回忆" /&gt;</description>
-        </item>
-        <item>
-        <title>تجربة</title>
-        <link>https://YGPNFOREVER.github.io/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://YGPNFOREVER.github.io/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>تجربة مع فراغات</title>
-        <link>https://YGPNFOREVER.github.io/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://YGPNFOREVER.github.io/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</guid>
-        <description></description>
         </item>
         
     </channel>
