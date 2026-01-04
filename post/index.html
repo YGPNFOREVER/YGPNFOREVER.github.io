@@ -650,6 +650,7 @@
         ]
     })
 </script>
+
 <script>
     pjax._handleResponse = pjax.handleResponse;
     pjax.handleResponse = function(responseText, request, href, options) {
@@ -712,9 +713,6 @@
 </script>
 
 
-
-
-
     
     <script src=https://YGPNFOREVER.github.io/js/topbar.min.js></script>
 
@@ -733,11 +731,28 @@
     })
 	
     document.addEventListener('pjax:complete', () => {
-        ....
         
         topbar.hide();
     })
 </script>
+
+<script>
+    function showHideView() {
+        
+        let viewCounts = document.querySelectorAll("#viewCount");
+        if (viewCounts) {
+            
+            let article =  document.querySelector(".article-page");
+            if (!article) {
+                viewCounts.forEach(ele => {
+                    ele.style.display = 'none';
+                });
+            }
+        }
+    }
+    showHideView();
+</script>
+
 
     </body>
 </html>
