@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://YGPNFOREVER.github.io/p/newnew/</loc>
-    <lastmod>2026-01-03T17:24:52+08:00</lastmod>
+    <loc>https://YGPNFOREVER.github.io/categories/</loc>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
+  </url><url>
+    <loc>https://YGPNFOREVER.github.io/categories/memory/</loc>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
+  </url><url>
+    <loc>https://YGPNFOREVER.github.io/tags/memory/</loc>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
+  </url><url>
+    <loc>https://YGPNFOREVER.github.io/categories/photos/</loc>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
+  </url><url>
+    <loc>https://YGPNFOREVER.github.io/tags/photos/</loc>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
   </url><url>
     <loc>https://YGPNFOREVER.github.io/post/</loc>
-    <lastmod>2026-01-03T17:24:52+08:00</lastmod>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
+  </url><url>
+    <loc>https://YGPNFOREVER.github.io/tags/</loc>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
+  </url><url>
+    <loc>https://YGPNFOREVER.github.io/p/%E6%95%85%E4%BA%8B%E5%BC%80%E5%A7%8B%E5%9C%A8%E6%9C%80%E5%88%9D%E7%9A%84%E9%82%A3%E4%B8%AA%E6%A2%A6%E4%B8%AD.-.-./</loc>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
   </url><url>
     <loc>https://YGPNFOREVER.github.io/page/</loc>
     <lastmod>2026-01-03T17:54:06+08:00</lastmod>
@@ -14,32 +32,26 @@
     <loc>https://YGPNFOREVER.github.io/archives/</loc>
     <lastmod>2026-01-03T17:54:06+08:00</lastmod>
   </url><url>
-    <loc>https://YGPNFOREVER.github.io/categories/</loc>
-    <lastmod>2026-01-03T18:47:11+08:00</lastmod>
-  </url><url>
     <loc>https://YGPNFOREVER.github.io/tags/css/</loc>
-    <lastmod>2026-01-03T17:18:21+08:00</lastmod>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
   </url><url>
     <loc>https://YGPNFOREVER.github.io/tags/html/</loc>
-    <lastmod>2026-01-03T17:18:21+08:00</lastmod>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
   </url><url>
     <loc>https://YGPNFOREVER.github.io/tags/markdown/</loc>
-    <lastmod>2026-01-03T17:18:21+08:00</lastmod>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
   </url><url>
     <loc>https://YGPNFOREVER.github.io/p/markdown-syntax-guide/</loc>
-    <lastmod>2026-01-03T17:18:21+08:00</lastmod>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
   </url><url>
     <loc>https://YGPNFOREVER.github.io/categories/syntax/</loc>
-    <lastmod>2026-01-03T17:18:21+08:00</lastmod>
-  </url><url>
-    <loc>https://YGPNFOREVER.github.io/tags/</loc>
-    <lastmod>2026-01-03T17:18:21+08:00</lastmod>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
   </url><url>
     <loc>https://YGPNFOREVER.github.io/categories/themes/</loc>
-    <lastmod>2026-01-03T17:18:21+08:00</lastmod>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
   </url><url>
     <loc>https://YGPNFOREVER.github.io/tags/themes/</loc>
-    <lastmod>2026-01-03T17:18:21+08:00</lastmod>
+    <lastmod>2026-01-05T18:44:02+08:00</lastmod>
   </url><url>
     <loc>https://YGPNFOREVER.github.io/</loc>
     <lastmod>2026-01-03T17:18:21+08:00</lastmod>
