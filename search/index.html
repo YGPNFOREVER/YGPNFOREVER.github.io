@@ -869,17 +869,42 @@
         if (!mask) return;
 
         window.addEventListener('load', function() {
-            setTimeout(function() {
-                mask.style.opacity = "0";
-                setTimeout(function() {
-                    mask.style.display = "none";
-                }, 600); 
-            }, 1000); 
+            mask.style.opacity = "0";
+
+            mask.addEventListener('transitionend', function() {
+                mask.style.display = "none";
+            }, { once: true }); 
         });
     }
 
     initLoading();
 </script>
 
+
+
+<div id="jsi-flying-fish-container"></div>
+
+<style>
+    #jsi-flying-fish-container {
+        width: 100%;
+        height: 200px;
+        position: fixed;
+        z-index: -1;
+        opacity: 0.6;
+        bottom: 0;
+        left: 0;
+         
+    }
+</style>
+
+<script src="https://YGPNFOREVER.github.io/js/renderer.js"></script>
+<script>
+    
+    if (typeof RENDERER !== 'undefined' && RENDERER.init) {
+        RENDERER.init();
+    } else {
+        console.warn('Renderer script not loaded correctly.');
+    }
+</script>
     </body>
 </html>
