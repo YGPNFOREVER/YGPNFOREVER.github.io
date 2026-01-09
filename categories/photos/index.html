@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://YGPNFOREVER.github.io/categories/photos/'>
 
-<link rel="stylesheet" href="/scss/style.min.4f256048b34b15d62b241d0557f7bc08407cdb3f8031162bb441fcb1020ba2a6.css"><meta property='og:title' content="Category: Photos - Yvonne & Sunny Dou">
+<link rel="stylesheet" href="/scss/style.min.65a6e46677701c3ec9fe50841088be38426956439cdf4a2e321c5dbde6e8c05b.css"><meta property='og:title' content="Category: Photos - Yvonne & Sunny Dou">
 <meta property='og:description' content="This is an example category">
 <meta property='og:url' content='https://YGPNFOREVER.github.io/categories/photos/'>
 <meta property='og:site_name' content='Yvonne &amp; Sunny Dou'>
@@ -1061,10 +1061,13 @@
 <div id="jsi-flying-fish-container"></div>
 
 <style>
+    body {
+        position: relative;
+    }
     #jsi-flying-fish-container {
         width: 100%;
         height: 200px;
-        position: fixed;
+        position: absolute;
         z-index: -1;
         opacity: 0.6;
         bottom: 0;
@@ -1082,5 +1085,74 @@
         console.warn('Renderer script not loaded correctly.');
     }
 </script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script>
+    const staticDir = "https://YGPNFOREVER.github.io/"
+    const ap = new APlayer({
+        container: document.getElementById('aplayer'),
+        audio: [],
+        fixed: true,
+        mini: true,
+        autoplay: false,
+        theme: '#FADFA3',
+        loop: 'all',
+        order: 'list',
+        preload: 'auto',
+        volume: 0.7,
+        mutex: true,
+        listFolded: false,
+        listMaxHeight: 3,
+        lrcType: 3,
+        audio: [
+        {
+            name: '如果每天都可以 happy happy 谁想要sad))',
+            artist: '陳嫺靜',
+            url: staticDir + '如果每天都可以 happy happy 谁想要sad)) - 陳嫺靜.flac',
+            cover: staticDir + '如果每天都可以 happy happy 谁想要sad)) - 陳嫺靜.jpg',
+            lrc: staticDir + '如果每天都可以 happy happy 谁想要sad)) - 陳嫺靜.lrc',
+            theme: '#ebd0c2'
+        },
+        {
+            name: '珠宝和首饰',
+            artist: 'mac ova seas',
+            url: staticDir + '珠宝和首饰 - mac ova seas.flac',
+            cover: staticDir + '珠宝和首饰 - mac ova seas.jpg',
+            lrc: staticDir + '珠宝和首饰 - mac ova seas.lrc',
+            theme: '#ebd0c2'
+        },
+        {
+            name: '失眠海',
+            artist: '罗可Lorkin & Top Barry',
+            url: staticDir + '失眠海 - 罗可LorkinTop Barry.flac',
+            cover: staticDir + '失眠海 - 罗可LorkinTop Barry.jpg',
+            lrc: staticDir + '失眠海 - 罗可LorkinTop Barry.lrc',
+            theme: '#ebd0c2'
+        },
+        {
+            name: '血与泪',
+            artist: '泰格西cLoner23',
+            url: staticDir + '血与泪 - 泰格西cLoner23.flac',
+            cover: staticDir + '血与泪 - 泰格西cLoner23.jpg',
+            lrc: staticDir + '血与泪 - 泰格西cLoner23.lrc',
+            theme: '#ebd0c2'
+        },
+        {
+            name: '主 动',
+            artist: '加木',
+            url: staticDir + '主 动 - 加木.flac',
+            cover: staticDir + '主 动 - 加木.jpg',
+            lrc: staticDir + '主 动 - 加木.lrc',
+            theme: '#ebd0c2'
+        }
+    ]
+        
+    });
+</script>
+
     </body>
 </html>
