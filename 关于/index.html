@@ -692,6 +692,7 @@
     z-index: -1;
   }
 </style>
+
 <style>
     #backTopBtn {
         display: none;
@@ -714,6 +715,10 @@
             return;
         }
         
+        if (document.getElementById("backTopBtn")) {
+            return;
+        }
+
         let btn = document.createElement("div");
         btn.id = "backTopBtn";
         btn.onclick = backToTop
@@ -737,7 +742,6 @@
 
     initScrollTop();
 </script>
-
 
 
 <script>
@@ -856,6 +860,7 @@
     document.addEventListener('pjax:complete', () => {
         
         topbar.hide();
+        initScrollTop();
     })
 </script>
 
