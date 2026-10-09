@@ -943,10 +943,18 @@
         display: none;
         position: fixed;
         bottom: 30px;
+        right: max(20px, env(safe-area-inset-right));
         z-index: 99;
         cursor: pointer;
-        width: 30px;
-        height: 30px;
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        border: 0;
+        border-radius: 50%;
+        background-color: var(--card-background);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px;
         background-image: url(https://YGPNFOREVER.github.io/icons/backTop.svg);
     }
 </style>
@@ -955,34 +963,39 @@
     
 
     function initScrollTop() {
-        let rightSideBar = document.querySelector(".right-sidebar");
-        if (!rightSideBar) {
-            return;
-        }
         
         if (document.getElementById("backTopBtn")) {
+            updateScrollTop();
             return;
         }
 
-        let btn = document.createElement("div");
+        let btn = document.createElement("button");
         btn.id = "backTopBtn";
+        btn.type = "button";
+        btn.setAttribute("aria-label", "回到顶部");
+        btn.title = "回到顶部";
         btn.onclick = backToTop
-        rightSideBar.appendChild(btn)
+        document.body.appendChild(btn)
         
-        window.onscroll = function() {
-            
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                btn.style.display = "block";
-            } else {
-                btn.style.display = "none";
-            }
-        };
+        window.addEventListener("scroll", updateScrollTop, { passive: true });
+        updateScrollTop();
+    }
+
+    function updateScrollTop() {
+        const btn = document.getElementById("backTopBtn");
+        if (!btn) return;
+        
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
     }
 
     
 
     function backToTop(){
-        window.scrollTo({ top: 0, behavior: "smooth" })
+        window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? "instant" : "smooth" })
     }
 
     initScrollTop();
